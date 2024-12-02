@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffccff; /* Light pink background */
+    color: #ff1493; /* Hot pink text color */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.yes-btn {
+    background-color: #ff69b4; /* Hot pink button */
+}
+
+.no-btn {
+    background-color: #ff6347; /* Tomato button */
+}
+
+.cute-text {
+    font-size: 1.5rem;
+    color: #32cd32; /* Lime green text for cute message */
+    margin-top: 20px;
+}
+
+.message-text {
+    font-size: 1.5rem;
+    color: #ff8c00; /* Orange color for the "No" button message */
+    margin-top: 20px;
+}
