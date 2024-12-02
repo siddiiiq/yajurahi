@@ -5,11 +5,11 @@ const responseText = document.getElementById('responseText');
 
 // Event listener for the "Yes" button
 yesButton.addEventListener('click', function() {
-    responseText.innerHTML = "Well, that's true, now press no ❤️!";
+    responseText.innerHTML = "Well, that's true, yaju and rahi are cutest ❤️!";
     noButton.disabled = true; // Disable the "No" button
 });
 
 // Event listener for the "No" button
 noButton.addEventListener('click', function() {
-    responseText.innerHTML = "Why'd you press No? Press Yes.";
+    responseText.innerHTML = "Why'd you press No habibi you cutie ? Press Yes!,yes!yes!";
 });
